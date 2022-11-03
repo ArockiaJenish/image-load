@@ -1,0 +1,70 @@
+
+
+<header>
+    <h1>Welcome to Angular</h1>
+  </header>
+  <content>
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <img src="/assets/images/jenish.jpeg" alt="Image1">
+          <h4>Arockia Jenish</h4>
+          <p>Software Engineer</p>
+        </div>
+
+        <div class="col-3">
+          <img src="/assets/images/salvation.jpeg" alt="Image1">
+          <h4>Salvation Robinsion</h4>
+          <p>Software Engineer</p>
+        </div>
+
+        <div class="col-3">
+          <img src="/assets/images/ruban.jpg" alt="Image1">
+          <h4>Ruban Kumar</h4>
+          <p>Software Engineer</p>
+        </div>
+
+        <div class="col-3">
+          <img src="/assets/images/aravind.jpeg" alt="Image1">
+          <h4>Aravind</h4>
+          <p>Software Engineer</p>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="container"  *ngIf='isProcess'>
+      <div class="row">
+        <div class="col-3">
+          <img src="/assets/images/jerin.jpeg" alt="Image1">
+          <h4>Jerin Rex</h4>
+          <p>M. Sc Chemistry</p>
+        </div>
+
+        <div class="col-3">
+          <img src="/assets/images/nirmal.jpeg" alt="Image1">
+          <h4>Lurdu Nirmal</h4>
+          <p>Software Engineer</p>
+        </div>
+
+        <div class="col-3">
+          <img src="/assets/images/antony.jpeg" alt="Image1">
+          <h4>Antony Raj</h4>
+          <p>Software Engineer</p>
+        </div>
+
+        <div class="col-3">
+          <img src="/assets/images/nature.jpeg" alt="Image1">
+          <h4>Nature</h4>
+          <p>Good to see</p>
+        </div>
+
+      </div>
+    </div>
+    <button (click)="visible()">Load more</button>
+  </content>
+  <footer>
+
+  </footer>
+
+<router-outlet></router-outlet>
